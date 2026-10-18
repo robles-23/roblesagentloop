@@ -1,0 +1,1 @@
+{ "name": "agentloop-flota", "version": "0.1.0", "author": { "name": "Óscar Robles" }, "description": "Muestra encima del prompt los subagentes de Claude y las ejecuciones de Codex en curso: modelo, tiempo y qué están haciendo. /flota abre el detalle.", "types": "./types/index.d.ts" }

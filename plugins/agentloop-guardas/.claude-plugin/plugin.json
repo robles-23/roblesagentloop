@@ -1,0 +1,1 @@
+{ "name": "agentloop-guardas", "version": "0.1.0", "author": { "name": "Óscar Robles" }, "description": "Hosts bloqueados o permitidos, UTF-8 en PowerShell y modelo del arquitecto configurable." }

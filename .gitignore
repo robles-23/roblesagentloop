@@ -1,0 +1,12 @@
+_source/
+.scratch/
+.agents/runs/
+.agentloop-worktrees/
+node_modules/
+.venv/
+**/.claude-plugin/types/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

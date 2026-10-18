@@ -1,0 +1,16 @@
+{
+  "executor": "gpt-6.1-sol",
+  "reviewer": "gpt-6-luna",
+  "criticalReviewer": "gpt-6-astra",
+  "maxRounds": 3,
+  "staleMinutes": 30,
+  "worktreeRoot": ".agentloop-worktrees",
+  "contextFile": "docs/specification.md",
+  "gates": [],
+  "infrastructure": [],
+  "guardas": {
+    "blockedHosts": ["production.example.com"],
+    "allowedHosts": [],
+    "claudeModel": "opus"
+  }
+}

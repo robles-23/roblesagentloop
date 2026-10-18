@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Ver Codex en vivo",
+      "detail": "Sigue la ejecución de Codex más reciente (cambia sola de tarea y de ronda)",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/agent/watch.ps1"],
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated", "focus": false, "clear": true }
+    },
+    {
+      "label": "Ver una tarea de Codex",
+      "detail": "Sigue solo la tarea que indiques (p. ej. T-001)",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/agent/watch.ps1", "-Id", "${input:taskId}"],
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "new", "focus": false, "clear": true }
+    },
+    {
+      "label": "Tablero de agentes",
+      "type": "shell",
+      "command": "node",
+      "args": ["${workspaceFolder}/scripts/agent/board.mjs"],
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "shared" }
+    }
+  ],
+  "inputs": [
+    { "id": "taskId", "type": "promptString", "description": "ID de la tarea", "default": "T-001" }
+  ]
+}

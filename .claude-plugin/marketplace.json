@@ -1,0 +1,19 @@
+{
+  "name": "roblesagentloop",
+  "metadata": { "description": "Bucle de desarrollo con Claude Code y Codex CLI." },
+  "owner": {
+    "name": "Óscar Robles"
+  },
+  "plugins": [
+    {
+      "name": "agentloop-flota",
+      "source": "./plugins/agentloop-flota",
+      "description": "Banda de subagentes y ejecuciones de Codex."
+    },
+    {
+      "name": "agentloop-guardas",
+      "source": "./plugins/agentloop-guardas",
+      "description": "Hosts configurables, UTF-8 y reglas del arquitecto."
+    }
+  ]
+}

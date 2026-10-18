@@ -1,0 +1,11 @@
+.agents/runs/
+.agentloop-worktrees/
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
