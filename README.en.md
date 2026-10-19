@@ -1,5 +1,6 @@
 # roblesagentloop
-<img width="1660" height="852" alt="Captura de pantalla 2026-10-15 091110" src="https://github.com/user-attachments/assets/52a1ce0c-649c-4016-8876-83db98cd6281" />
+<img width="1638" height="650" alt="image" src="https://github.com/user-attachments/assets/33ba4552-9e57-4dab-8445-70d9b0703666" />
+
 
 Claude Code (Opus) plans small, verifiable tasks. Codex CLI implements each task in a separate Git worktree, runs automated checks and gets a read-only JSON review. Failed checks or reviews return to the executor within a bounded round budget.
 
