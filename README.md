@@ -1,4 +1,5 @@
 # roblesagentloop
+<img width="1638" height="650" alt="image" src="https://github.com/user-attachments/assets/ed0a11d0-0cac-447f-b63b-0760eb9e06df" />
 
 Claude Code planifica y revisa; Codex CLI implementa cada tarea en su propia rama.
 El bucle pasa comprobaciones, pide una revisión y devuelve los fallos al ejecutor antes de integrar en main.
@@ -44,6 +45,7 @@ Representación textual de la banda. El mod dibuja personajes en braille y usa u
    ```
 
 ## Qué incluye
+<img width="340" height="168" alt="Captura de pantalla 2026-10-15 171350" src="https://github.com/user-attachments/assets/f95c2385-a57d-4b02-8ef7-0e3fe7ee983a" />
 
 `template/` contiene los scripts, las reglas y las skills que copias a tu proyecto. `plugins/` contiene la banda de actividad y las guardas. No hace falta una base de datos ni un servicio web para el bucle.
 
