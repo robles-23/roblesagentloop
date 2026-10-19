@@ -1,4 +1,5 @@
 # roblesagentloop
+<img width="1660" height="852" alt="Captura de pantalla 2026-10-15 091110" src="https://github.com/user-attachments/assets/52a1ce0c-649c-4016-8876-83db98cd6281" />
 
 Claude Code (Opus) plans small, verifiable tasks. Codex CLI implements each task in a separate Git worktree, runs automated checks and gets a read-only JSON review. Failed checks or reviews return to the executor within a bounded round budget.
 
@@ -23,6 +24,7 @@ Inside Claude Code:
 /plugin install agentloop-flota@roblesagentloop
 /plugin install agentloop-guardas@roblesagentloop
 ```
+<img width="340" height="168" alt="Captura de pantalla 2026-10-15 171350" src="https://github.com/user-attachments/assets/fc18bfb3-2363-42d6-a937-d5a2450ad001" />
 
 Restart the session. Mods need a Claude Code build with the TypeScript mod runtime. The scripts work independently of the display mods.
 
